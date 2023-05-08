@@ -1,0 +1,21 @@
+server:
+  port: 1900
+
+spring:
+  application:
+    name: boot-minio
+  servlet:
+    multipart:
+      max-file-size: 800MB
+      max-request-size: 1000MB
+
+
+minio:
+  #Minio服务所在地址
+  endpoint: http://120.25.212.197:9000
+  #存储桶名称
+  bucketName: jxiot-bucket
+  #访问的key
+  accessKey: UGwFeKWKWsSrwS96
+  #访问的秘钥
+  secretKey: D37Lcf5xxm2WVnwnldezmLvwzUX85FqD
